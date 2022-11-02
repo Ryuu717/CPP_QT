@@ -1,0 +1,9 @@
+# ninja log v5
+0	217	1667182298217981962	LoginForm_autogen/timestamp	41c41be08828a333
+0	217	1667182298217981962	LoginForm_autogen/mocs_compilation.cpp	41c41be08828a333
+0	217	1667182298217981962	/Users/Ryuuuu/QtProjects/02_Debug/build-LoginForm-Desktop_x86_darwin_generic_mach_o_64bit-Debug/LoginForm_autogen/timestamp	41c41be08828a333
+0	217	1667182298217981962	/Users/Ryuuuu/QtProjects/02_Debug/build-LoginForm-Desktop_x86_darwin_generic_mach_o_64bit-Debug/LoginForm_autogen/mocs_compilation.cpp	41c41be08828a333
+217	750	1667182298751353645	CMakeFiles/LoginForm.dir/LoginForm_autogen/mocs_compilation.cpp.o	f32ef78b794fe0a5
+218	752	1667182298751917555	CMakeFiles/LoginForm.dir/main.cpp.o	2c2eaf81728910b7
+218	812	1667182298814283152	CMakeFiles/LoginForm.dir/widget.cpp.o	b32666f0de0c6fa0
+812	890	1667182298895153227	LoginForm.app/Contents/MacOS/LoginForm	21fc879a533fb07a

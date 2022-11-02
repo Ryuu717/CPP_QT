@@ -1,0 +1,9 @@
+# ninja log v5
+0	298	1667418440578617652	RegEx_autogen/timestamp	228cfbcf30dbc484
+0	298	1667418440578617652	RegEx_autogen/mocs_compilation.cpp	228cfbcf30dbc484
+0	298	1667418440578617652	/Users/Ryuuuu/QtProjects/build-RegEx-Desktop_x86_darwin_generic_mach_o_64bit-Debug/RegEx_autogen/timestamp	228cfbcf30dbc484
+0	298	1667418440578617652	/Users/Ryuuuu/QtProjects/build-RegEx-Desktop_x86_darwin_generic_mach_o_64bit-Debug/RegEx_autogen/mocs_compilation.cpp	228cfbcf30dbc484
+299	878	1667418441160058242	CMakeFiles/RegEx.dir/RegEx_autogen/mocs_compilation.cpp.o	4fb32c7224998a87
+299	880	1667418441160058825	CMakeFiles/RegEx.dir/main.cpp.o	4fec95970e83c2c5
+299	925	1667418441208494625	CMakeFiles/RegEx.dir/widget.cpp.o	21442a9bbf0a6db9
+925	1020	1667418441306179239	RegEx.app/Contents/MacOS/RegEx	89c0cda3554c90b0

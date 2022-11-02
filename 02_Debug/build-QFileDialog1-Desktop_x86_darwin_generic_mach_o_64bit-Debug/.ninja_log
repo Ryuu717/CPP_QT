@@ -1,0 +1,9 @@
+# ninja log v5
+0	349	1667377837437254439	QFileDialog1_autogen/timestamp	a30fd95609192354
+0	349	1667377837437254439	QFileDialog1_autogen/mocs_compilation.cpp	a30fd95609192354
+0	349	1667377837437254439	/Users/Ryuuuu/QtProjects/02_Debug/build-QFileDialog1-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QFileDialog1_autogen/timestamp	a30fd95609192354
+0	349	1667377837437254439	/Users/Ryuuuu/QtProjects/02_Debug/build-QFileDialog1-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QFileDialog1_autogen/mocs_compilation.cpp	a30fd95609192354
+349	1286	1667377838386466774	CMakeFiles/QFileDialog1.dir/QFileDialog1_autogen/mocs_compilation.cpp.o	d0e2f06c27c004fd
+350	1327	1667377838428117651	CMakeFiles/QFileDialog1.dir/main.cpp.o	19e19dd3462cb67e
+350	1328	1667377838425393860	CMakeFiles/QFileDialog1.dir/widget.cpp.o	49a19bfdbb9a3df0
+1328	1467	1667377838566071544	QFileDialog1.app/Contents/MacOS/QFileDialog1	7ca40b6bef22d963

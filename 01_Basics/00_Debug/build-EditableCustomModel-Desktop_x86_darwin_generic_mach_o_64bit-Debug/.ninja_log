@@ -1,0 +1,10 @@
+# ninja log v5
+0	223	1667103521399212317	EditableCustomModel_autogen/timestamp	c0aec1087d170ea4
+0	223	1667103521399212317	EditableCustomModel_autogen/mocs_compilation.cpp	c0aec1087d170ea4
+0	223	1667103521399212317	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-EditableCustomModel-Desktop_x86_darwin_generic_mach_o_64bit-Debug/EditableCustomModel_autogen/timestamp	c0aec1087d170ea4
+0	223	1667103521399212317	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-EditableCustomModel-Desktop_x86_darwin_generic_mach_o_64bit-Debug/EditableCustomModel_autogen/mocs_compilation.cpp	c0aec1087d170ea4
+223	823	1667103521999560198	CMakeFiles/EditableCustomModel.dir/EditableCustomModel_autogen/mocs_compilation.cpp.o	c1170c46f12f1ddc
+223	827	1667103522005171756	CMakeFiles/EditableCustomModel.dir/main.cpp.o	c027dc235c6133b2
+224	841	1667103522018895779	CMakeFiles/EditableCustomModel.dir/customtablemodel.cpp.o	b86cad5a36b75aa8
+223	905	1667103522082725662	CMakeFiles/EditableCustomModel.dir/widget.cpp.o	3d81111dbd2674b8
+905	999	1667103522180197272	EditableCustomModel.app/Contents/MacOS/EditableCustomModel	5b3368a52c300b85

@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ResourcesDemo_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/Resources",
+	"CMAKE_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/Resources",
+	"INCLUDE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ResourcesDemo_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/SNS.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/quitIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/pasteIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/copyIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/cutIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/redoIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/undoIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/aboutQtIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Resources/images/aboutIcon.png"
+	],
+	"LOCK_FILE" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ResourcesDemo_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/Users/Ryuuuu/Qt/6.4.0/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/ResourcesDemo_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/Ryuuuu/QtProjects/01_Basics/Resources/resource.qrc",
+	"VERBOSITY" : 0
+}

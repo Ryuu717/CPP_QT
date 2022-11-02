@@ -1,0 +1,9 @@
+# ninja log v5
+0	258	1667101520175972726	Connection_autogen/timestamp	c3e5e183302824e4
+0	258	1667101520175972726	Connection_autogen/mocs_compilation.cpp	c3e5e183302824e4
+0	258	1667101520175972726	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Connection_autogen/timestamp	c3e5e183302824e4
+0	258	1667101520175972726	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Connection_autogen/mocs_compilation.cpp	c3e5e183302824e4
+258	885	1667101520804905285	CMakeFiles/Connection.dir/main.cpp.o	30e62a7e8e569b73
+258	887	1667101520804906868	CMakeFiles/Connection.dir/Connection_autogen/mocs_compilation.cpp.o	31e78248178cbdd1
+258	890	1667101520811696979	CMakeFiles/Connection.dir/widget.cpp.o	c94dfcb0ac187e8
+890	995	1667101520918759290	Connection.app/Contents/MacOS/Connection	923d396d99cac7ea

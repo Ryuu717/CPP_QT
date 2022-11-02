@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Menus_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/Menus",
+	"CMAKE_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/Menus",
+	"INCLUDE_DIR" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Menus_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/pasteIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/copyIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/aboutQtIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/aboutIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/cutIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/redoIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/quitIcon.png",
+		"/Users/Ryuuuu/QtProjects/01_Basics/Menus/images/undoIcon.png"
+	],
+	"LOCK_FILE" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Menus_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/Users/Ryuuuu/Qt/6.4.0/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Menus_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/Ryuuuu/QtProjects/01_Basics/Menus/resource.qrc",
+	"VERBOSITY" : 0
+}

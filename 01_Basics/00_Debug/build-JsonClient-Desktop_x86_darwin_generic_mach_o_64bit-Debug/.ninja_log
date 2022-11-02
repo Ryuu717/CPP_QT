@@ -1,0 +1,9 @@
+# ninja log v5
+0	231	1667104408729962845	JsonClient_autogen/timestamp	b189b6a53dbc98dd
+0	231	1667104408729962845	JsonClient_autogen/mocs_compilation.cpp	b189b6a53dbc98dd
+0	231	1667104408729962845	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-JsonClient-Desktop_x86_darwin_generic_mach_o_64bit-Debug/JsonClient_autogen/timestamp	b189b6a53dbc98dd
+0	231	1667104408729962845	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-JsonClient-Desktop_x86_darwin_generic_mach_o_64bit-Debug/JsonClient_autogen/mocs_compilation.cpp	b189b6a53dbc98dd
+231	825	1667104409325210508	CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o	4415cd024e103dad
+231	827	1667104409324633006	CMakeFiles/JsonClient.dir/main.cpp.o	a8f74760340e944c
+232	990	1667104409491064325	CMakeFiles/JsonClient.dir/widget.cpp.o	1161753ffa3c16eb
+990	1069	1667104409573348917	JsonClient.app/Contents/MacOS/JsonClient	bd5a4646fc8f8a53

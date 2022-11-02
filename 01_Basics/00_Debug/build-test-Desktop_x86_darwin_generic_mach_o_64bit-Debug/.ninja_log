@@ -1,0 +1,9 @@
+# ninja log v5
+0	209	1667105428103032428	GuessNumberGame_autogen/timestamp	9c05a22b2154f3fa
+0	209	1667105428103032428	GuessNumberGame_autogen/mocs_compilation.cpp	9c05a22b2154f3fa
+0	209	1667105428103032428	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/GuessNumberGame_autogen/timestamp	9c05a22b2154f3fa
+0	209	1667105428103032428	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/GuessNumberGame_autogen/mocs_compilation.cpp	9c05a22b2154f3fa
+209	750	1667105428645562943	CMakeFiles/GuessNumberGame.dir/main.cpp.o	894ac03235d86682
+209	752	1667105428645993945	CMakeFiles/GuessNumberGame.dir/GuessNumberGame_autogen/mocs_compilation.cpp.o	e70c008ef6f450a8
+209	793	1667105428689639713	CMakeFiles/GuessNumberGame.dir/widget.cpp.o	9766f1e5cca3f033
+793	875	1667105428774053149	GuessNumberGame.app/Contents/MacOS/GuessNumberGame	57aa8f80fc2dfd06

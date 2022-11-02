@@ -1,0 +1,9 @@
+# ninja log v5
+0	243	1667103858260343936	GuiIntro_autogen/timestamp	ce9c60f7c3d1f6a2
+0	243	1667103858260343936	GuiIntro_autogen/mocs_compilation.cpp	ce9c60f7c3d1f6a2
+0	243	1667103858260343936	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-GuiIntro-Desktop_x86_darwin_generic_mach_o_64bit-Debug/GuiIntro_autogen/timestamp	ce9c60f7c3d1f6a2
+0	243	1667103858260343936	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-GuiIntro-Desktop_x86_darwin_generic_mach_o_64bit-Debug/GuiIntro_autogen/mocs_compilation.cpp	ce9c60f7c3d1f6a2
+243	803	1667103858820841159	CMakeFiles/GuiIntro.dir/GuiIntro_autogen/mocs_compilation.cpp.o	95454cfff847ae57
+244	804	1667103858820517078	CMakeFiles/GuiIntro.dir/main.cpp.o	5bc718f83a3e1f2
+244	816	1667103858835232054	CMakeFiles/GuiIntro.dir/widget.cpp.o	35337c0a54eefdb3
+816	891	1667103858912893876	GuiIntro.app/Contents/MacOS/GuiIntro	7074130c622ce0e1

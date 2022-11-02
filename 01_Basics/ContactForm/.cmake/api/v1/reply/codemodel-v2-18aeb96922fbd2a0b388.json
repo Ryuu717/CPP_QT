@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ConsoleAppQt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ConsoleAppQt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConsoleAppQt-Debug-d45eee62cad28503df72.json",
+					"name" : "ConsoleAppQt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConsoleAppQt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConsoleAppQt_autogen-Debug-95d7f0b984b91b79e1d5.json",
+					"name" : "ConsoleAppQt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConsoleAppQt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConsoleAppQt_autogen_timestamp_deps-Debug-81713d5df28648b143ed.json",
+					"name" : "ConsoleAppQt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Ryuuuu/Desktop/Qt-6-C-GUI-Development-for-Beginners-main/ContactForm",
+		"source" : "/Users/Ryuuuu/Desktop/Qt-6-C-GUI-Development-for-Beginners-main/ConsoleAppQt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,16 @@
+# ninja log v5
+0	314	1667189113809266695	CaloryCounter_autogen/timestamp	6ebc76b7ac202ee7
+0	314	1667189113809266695	CaloryCounter_autogen/mocs_compilation.cpp	6ebc76b7ac202ee7
+0	314	1667189113809266695	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CaloryCounter-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CaloryCounter_autogen/timestamp	6ebc76b7ac202ee7
+0	314	1667189113809266695	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CaloryCounter-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CaloryCounter_autogen/mocs_compilation.cpp	6ebc76b7ac202ee7
+317	1291	1667189114784451136	CMakeFiles/CaloryCounter.dir/person.cpp.o	8ed452ed37d4e45d
+316	1547	1667189115047849687	CMakeFiles/CaloryCounter.dir/main.cpp.o	46b797ef908d06c7
+315	1551	1667189115052383335	CMakeFiles/CaloryCounter.dir/CaloryCounter_autogen/mocs_compilation.cpp.o	ed9eac9885cc45b6
+316	1625	1667189115126643616	CMakeFiles/CaloryCounter.dir/widget.cpp.o	c29907c2d4b8a2c8
+1625	1738	1667189115242264644	CaloryCounter.app/Contents/MacOS/CaloryCounter	157c77e0c559bd0
+8	141	1667361866780667586	CaloryCounter_autogen/timestamp	6ebc76b7ac202ee7
+8	141	1667361866780667586	CaloryCounter_autogen/mocs_compilation.cpp	6ebc76b7ac202ee7
+8	141	1667361866780667586	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CaloryCounter-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CaloryCounter_autogen/timestamp	6ebc76b7ac202ee7
+8	141	1667361866780667586	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CaloryCounter-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CaloryCounter_autogen/mocs_compilation.cpp	6ebc76b7ac202ee7
+151	1027	1667361867665989553	CMakeFiles/CaloryCounter.dir/widget.cpp.o	c29907c2d4b8a2c8
+1027	1128	1667361867770032424	CaloryCounter.app/Contents/MacOS/CaloryCounter	157c77e0c559bd0

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CustomTableModelEditable",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomTableModelEditable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomTableModelEditable-Debug-c5f90e0eabe6dd4fce06.json",
+					"name" : "CustomTableModelEditable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomTableModelEditable_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomTableModelEditable_autogen-Debug-8ab3226a1b61f16d9937.json",
+					"name" : "CustomTableModelEditable_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CustomTableModelEditable_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CustomTableModelEditable_autogen_timestamp_deps-Debug-fefc8e6ec6117d5a7a2d.json",
+					"name" : "CustomTableModelEditable_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Ryuuuu/QtProjects/01_Basics/EditableCustomModel/CustomTableModelEditable/build-EditableCustomModel-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Users/Ryuuuu/QtProjects/01_Basics/EditableCustomModel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

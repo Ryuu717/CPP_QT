@@ -1,0 +1,9 @@
+# ninja log v5
+0	387	1667102606889549208	ContactForm_autogen/timestamp	3590f550ad9bb3b6
+0	387	1667102606889549208	ContactForm_autogen/mocs_compilation.cpp	3590f550ad9bb3b6
+0	387	1667102606889549208	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ContactForm-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ContactForm_autogen/timestamp	3590f550ad9bb3b6
+0	387	1667102606889549208	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ContactForm-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ContactForm_autogen/mocs_compilation.cpp	3590f550ad9bb3b6
+388	1039	1667102607541432380	CMakeFiles/ContactForm.dir/main.cpp.o	6680573060bfb58f
+387	1040	1667102607541432547	CMakeFiles/ContactForm.dir/ContactForm_autogen/mocs_compilation.cpp.o	a78d79b4075f8ed3
+388	1069	1667102607572214584	CMakeFiles/ContactForm.dir/widget.cpp.o	a8d4684a85898c69
+1069	1160	1667102607666454616	ContactForm.app/Contents/MacOS/ContactForm	86cdd902f9a93edb

@@ -1,0 +1,9 @@
+# ninja log v5
+0	556	1667371439872370740	Signup_autogen/timestamp	31faf6c82f6d7641
+0	556	1667371439872370740	Signup_autogen/mocs_compilation.cpp	31faf6c82f6d7641
+0	556	1667371439872370740	/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Signup_autogen/timestamp	31faf6c82f6d7641
+0	556	1667371439872370740	/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Signup_autogen/mocs_compilation.cpp	31faf6c82f6d7641
+557	1336	1667371440658947483	CMakeFiles/Signup.dir/Signup_autogen/mocs_compilation.cpp.o	6a05ba47b8d54b49
+557	1337	1667371440658866737	CMakeFiles/Signup.dir/main.cpp.o	85ef574193c8986f
+557	1374	1667371440698679054	CMakeFiles/Signup.dir/widget.cpp.o	5ee175f6385b592
+1374	1474	1667371440801590591	Signup.app/Contents/MacOS/Signup	cf5cd8ec506a2dd2

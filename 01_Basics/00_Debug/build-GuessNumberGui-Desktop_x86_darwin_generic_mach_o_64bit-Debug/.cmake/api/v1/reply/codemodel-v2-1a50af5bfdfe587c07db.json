@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NumberGuessGui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberGuessGui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberGuessGui-Debug-abe33b3d80b8f587046b.json",
+					"name" : "NumberGuessGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberGuessGui_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberGuessGui_autogen-Debug-735ab9807ae6c6aa9e33.json",
+					"name" : "NumberGuessGui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberGuessGui_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberGuessGui_autogen_timestamp_deps-Debug-c396f3f691c16eebdd86.json",
+					"name" : "NumberGuessGui_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-GuessNumberGui-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Users/Ryuuuu/QtProjects/01_Basics/NumberGuessGui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

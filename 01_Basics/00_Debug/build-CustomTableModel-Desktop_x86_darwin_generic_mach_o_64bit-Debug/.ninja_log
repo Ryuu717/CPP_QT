@@ -1,0 +1,10 @@
+# ninja log v5
+0	201	1667102786891621562	CustomTableModel_autogen/timestamp	fb00036baa8e64cc
+0	201	1667102786891621562	CustomTableModel_autogen/mocs_compilation.cpp	fb00036baa8e64cc
+0	201	1667102786891621562	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CustomTableModel-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CustomTableModel_autogen/timestamp	fb00036baa8e64cc
+0	201	1667102786891621562	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-CustomTableModel-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CustomTableModel_autogen/mocs_compilation.cpp	fb00036baa8e64cc
+201	736	1667102787427973305	CMakeFiles/CustomTableModel.dir/customtablemodel.cpp.o	bef929c808283f8f
+201	753	1667102787444878209	CMakeFiles/CustomTableModel.dir/CustomTableModel_autogen/mocs_compilation.cpp.o	e424c875f782d32b
+201	756	1667102787448979083	CMakeFiles/CustomTableModel.dir/main.cpp.o	678e918735293309
+201	829	1667102787521747471	CMakeFiles/CustomTableModel.dir/widget.cpp.o	ed597a06297dbce7
+829	908	1667102787602852313	CustomTableModel.app/Contents/MacOS/CustomTableModel	8301fcbf672706b6

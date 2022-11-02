@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>229</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculator</string>
+  </property>
+  <widget class="QLabel" name="LabelNum1_3">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>12</y>
+     <width>144</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Simple Calculator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelNum1">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>42</y>
+     <width>34</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Num1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LineNum1">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>42</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelNum2">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>73</y>
+     <width>36</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Num2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LineNum2">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>73</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelResult">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>104</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Result</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelOutput">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>104</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonAdd">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>138</y>
+     <width>55</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonQuit">
+   <property name="geometry">
+    <rect>
+     <x>161</x>
+     <y>138</y>
+     <width>55</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonReset">
+   <property name="geometry">
+    <rect>
+     <x>82</x>
+     <y>138</y>
+     <width>65</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

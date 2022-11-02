@@ -1,0 +1,9 @@
+# ninja log v5
+0	420	1667180834254866034	QColorDialog_autogen/timestamp	b57234b91eb5fa35
+0	420	1667180834254866034	QColorDialog_autogen/mocs_compilation.cpp	b57234b91eb5fa35
+0	420	1667180834254866034	/Users/Ryuuuu/QtProjects/02_Debug/build-QColorDialog-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QColorDialog_autogen/timestamp	b57234b91eb5fa35
+0	420	1667180834254866034	/Users/Ryuuuu/QtProjects/02_Debug/build-QColorDialog-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QColorDialog_autogen/mocs_compilation.cpp	b57234b91eb5fa35
+420	1083	1667180834919118035	CMakeFiles/QColorDialog.dir/QColorDialog_autogen/mocs_compilation.cpp.o	8a30a59f8791ab53
+420	1084	1667180834919126785	CMakeFiles/QColorDialog.dir/main.cpp.o	2531684c7f4b53f1
+420	1106	1667180834944186330	CMakeFiles/QColorDialog.dir/widget.cpp.o	dbdf0d7468ea415a
+1106	1205	1667180835046046290	QColorDialog.app/Contents/MacOS/QColorDialog	56c504f579e8bb52

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/clipboard_paste.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/red-quit-button-top-down-260nw-291189914.webp</file>
+        <file>images/Redo-icon.png</file>
+        <file>images/Undo.ico</file>
+    </qresource>
+</RCC>

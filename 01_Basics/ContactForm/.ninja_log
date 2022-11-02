@@ -1,0 +1,8 @@
+# ninja log v5
+1	47	1666131780119943283	ConsoleAppQt_autogen/timestamp	4ec3a914c36b3ae6
+1	47	1666131780119943283	ConsoleAppQt_autogen/mocs_compilation.cpp	4ec3a914c36b3ae6
+1	47	1666131780119943283	/Users/Ryuuuu/Desktop/Qt-6-C-GUI-Development-for-Beginners-main/ContactForm/ConsoleAppQt_autogen/timestamp	4ec3a914c36b3ae6
+1	47	1666131780119943283	/Users/Ryuuuu/Desktop/Qt-6-C-GUI-Development-for-Beginners-main/ContactForm/ConsoleAppQt_autogen/mocs_compilation.cpp	4ec3a914c36b3ae6
+47	65	1666131780142666785	CMakeFiles/ConsoleAppQt.dir/ConsoleAppQt_autogen/mocs_compilation.cpp.o	8b3a54058b846788
+48	481	1666131780556014012	CMakeFiles/ConsoleAppQt.dir/main.cpp.o	b883f7ff575e2435
+481	511	1666131780588305048	ConsoleAppQt	5a6e43733a783a8b

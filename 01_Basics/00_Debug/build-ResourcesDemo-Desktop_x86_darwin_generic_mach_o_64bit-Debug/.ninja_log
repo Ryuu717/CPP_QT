@@ -1,0 +1,12 @@
+# ninja log v5
+0	215	1667106394389817124	ResourcesDemo_autogen/timestamp	22871d3ede4bca62
+0	215	1667106394389817124	ResourcesDemo_autogen/mocs_compilation.cpp	22871d3ede4bca62
+0	215	1667106394389817124	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ResourcesDemo_autogen/timestamp	22871d3ede4bca62
+0	215	1667106394389817124	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ResourcesDemo_autogen/mocs_compilation.cpp	22871d3ede4bca62
+216	240	1667106394419248777	ResourcesDemo_autogen/EWIEGA46WW/qrc_resource.cpp	31e193eacad7d34e
+216	240	1667106394419248777	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-ResourcesDemo-Desktop_x86_darwin_generic_mach_o_64bit-Debug/ResourcesDemo_autogen/EWIEGA46WW/qrc_resource.cpp	31e193eacad7d34e
+240	430	1667106394607850503	CMakeFiles/ResourcesDemo.dir/ResourcesDemo_autogen/EWIEGA46WW/qrc_resource.cpp.o	41a6f5a5d5fff2f0
+240	789	1667106394963312257	CMakeFiles/ResourcesDemo.dir/ResourcesDemo_autogen/mocs_compilation.cpp.o	34b06684f2d59da0
+240	792	1667106394967948156	CMakeFiles/ResourcesDemo.dir/main.cpp.o	585efb1ce2985b8d
+240	859	1667106395035551923	CMakeFiles/ResourcesDemo.dir/mainwindow.cpp.o	cbcd258ec0f0f7de
+859	940	1667106395118565435	ResourcesDemo.app/Contents/MacOS/ResourcesDemo	e483fed7c3a57e37

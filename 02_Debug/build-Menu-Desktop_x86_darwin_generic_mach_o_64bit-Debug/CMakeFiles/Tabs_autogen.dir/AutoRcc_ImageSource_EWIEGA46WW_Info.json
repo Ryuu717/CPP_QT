@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Tabs_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/Tabs",
+	"CMAKE_SOURCE_DIR" : "/Users/Ryuuuu/QtProjects/Tabs",
+	"INCLUDE_DIR" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Tabs_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/Ryuuuu/QtProjects/Tabs/images/about.png",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/clipboard_paste.png",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/copy.png",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/Redo-icon.png",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/red-quit-button-top-down-260nw-291189914.webp",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/cut.png",
+		"/Users/Ryuuuu/QtProjects/Tabs/images/Undo.ico"
+	],
+	"LOCK_FILE" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Tabs_autogen.dir/AutoRcc_ImageSource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ImageSource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ImageSource.cpp",
+	"RCC_EXECUTABLE" : "/Users/Ryuuuu/Qt/6.4.0/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/Ryuuuu/QtProjects/02_Debug/build-Menu-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Tabs_autogen.dir/AutoRcc_ImageSource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/Ryuuuu/QtProjects/Tabs/ImageSource.qrc",
+	"VERBOSITY" : 0
+}

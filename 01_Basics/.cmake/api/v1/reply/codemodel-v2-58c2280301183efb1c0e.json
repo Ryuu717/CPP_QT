@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CaloryCounter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CaloryCounter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CaloryCounter-Debug-fd04f4589bf9c99783d4.json",
+					"name" : "CaloryCounter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CaloryCounter_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CaloryCounter_autogen-Debug-fff4998eabb61b838c49.json",
+					"name" : "CaloryCounter_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CaloryCounter_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CaloryCounter_autogen_timestamp_deps-Debug-66db3686d2c3fb0fced5.json",
+					"name" : "CaloryCounter_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Ryuuuu/Desktop/QtProjects",
+		"source" : "/Users/Ryuuuu/Desktop/QtProjects/4.SignalsAndSlots/4-4CaloryCounter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

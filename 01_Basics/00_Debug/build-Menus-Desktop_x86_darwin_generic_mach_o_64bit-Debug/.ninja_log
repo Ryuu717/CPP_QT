@@ -1,0 +1,12 @@
+# ninja log v5
+0	260	1667283166884783463	Menus_autogen/timestamp	f76e51d2b20dcaee
+0	260	1667283166884783463	Menus_autogen/mocs_compilation.cpp	f76e51d2b20dcaee
+0	260	1667283166884783463	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Menus_autogen/timestamp	f76e51d2b20dcaee
+0	260	1667283166884783463	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Menus_autogen/mocs_compilation.cpp	f76e51d2b20dcaee
+260	288	1667283166919629246	Menus_autogen/EWIEGA46WW/qrc_resource.cpp	80110c28caae0356
+260	288	1667283166919629246	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Menus-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Menus_autogen/EWIEGA46WW/qrc_resource.cpp	80110c28caae0356
+289	537	1667283167166458102	CMakeFiles/Menus.dir/Menus_autogen/EWIEGA46WW/qrc_resource.cpp.o	aa9bfdf38d9b4418
+288	1051	1667283167677701557	CMakeFiles/Menus.dir/Menus_autogen/mocs_compilation.cpp.o	899db0d5f45043ff
+289	1164	1667283167792326824	CMakeFiles/Menus.dir/main.cpp.o	f270a20489427a24
+289	1230	1667283167858417828	CMakeFiles/Menus.dir/mainwindow.cpp.o	d68542130814ed53
+1231	1317	1667283167947692160	Menus.app/Contents/MacOS/Menus	591e7c26757d791e

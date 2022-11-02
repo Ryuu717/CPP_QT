@@ -1,0 +1,5 @@
+/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Connection.dir
+/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
+/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Connection_autogen_timestamp_deps.dir
+/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-Connection-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Connection_autogen.dir

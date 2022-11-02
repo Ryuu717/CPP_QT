@@ -1,0 +1,9 @@
+# ninja log v5
+0	271	1667104873473810733	NumberGuessGui_autogen/timestamp	9cdbed1a2b74bb7a
+0	271	1667104873473810733	NumberGuessGui_autogen/mocs_compilation.cpp	9cdbed1a2b74bb7a
+0	271	1667104873473810733	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-GuessNumberGui-Desktop_x86_darwin_generic_mach_o_64bit-Debug/NumberGuessGui_autogen/timestamp	9cdbed1a2b74bb7a
+0	271	1667104873473810733	/Users/Ryuuuu/QtProjects/01_Basics/00_Debug/build-GuessNumberGui-Desktop_x86_darwin_generic_mach_o_64bit-Debug/NumberGuessGui_autogen/mocs_compilation.cpp	9cdbed1a2b74bb7a
+271	922	1667104874125521895	CMakeFiles/NumberGuessGui.dir/NumberGuessGui_autogen/mocs_compilation.cpp.o	80c81cfa296001e8
+271	923	1667104874125522437	CMakeFiles/NumberGuessGui.dir/main.cpp.o	ed563259a538288e
+271	946	1667104874151354404	CMakeFiles/NumberGuessGui.dir/widget.cpp.o	40dc6ea49fa670ec
+946	1042	1667104874249808622	NumberGuessGui.app/Contents/MacOS/NumberGuessGui	ecc7947728197f28

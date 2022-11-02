@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fd471ecc138c5e31e287.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Covid19RegistrationSystem2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Covid19RegistrationSystem2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Covid19RegistrationSystem2-Debug-78ea684bf176ad7fcc8c.json",
+					"name" : "Covid19RegistrationSystem2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Covid19RegistrationSystem2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Covid19RegistrationSystem2_autogen-Debug-dcb677cea7ee0c24cc45.json",
+					"name" : "Covid19RegistrationSystem2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Covid19RegistrationSystem2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Covid19RegistrationSystem2_autogen_timestamp_deps-Debug-b5bf18fd09e210c5ad88.json",
+					"name" : "Covid19RegistrationSystem2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Ryuuuu/QtProjects/build-Covid19RegistrationSystem2-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Users/Ryuuuu/QtProjects/Covid19RegistrationSystem2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

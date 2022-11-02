@@ -1,0 +1,9 @@
+# ninja log v5
+0	202	1667182624481411941	Progressbar_autogen/timestamp	e569f4c394993750
+0	202	1667182624481411941	Progressbar_autogen/mocs_compilation.cpp	e569f4c394993750
+0	202	1667182624481411941	/Users/Ryuuuu/QtProjects/02_Debug/build-Progressbar-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Progressbar_autogen/timestamp	e569f4c394993750
+0	202	1667182624481411941	/Users/Ryuuuu/QtProjects/02_Debug/build-Progressbar-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Progressbar_autogen/mocs_compilation.cpp	e569f4c394993750
+202	759	1667182625038661167	CMakeFiles/Progressbar.dir/Progressbar_autogen/mocs_compilation.cpp.o	79c15969e39bd17
+203	760	1667182625038651126	CMakeFiles/Progressbar.dir/main.cpp.o	5def1425eacf10d1
+203	794	1667182625075173176	CMakeFiles/Progressbar.dir/widget.cpp.o	fac504826e6f9a75
+794	872	1667182625156048108	Progressbar.app/Contents/MacOS/Progressbar	b884080c3fc6d55b
