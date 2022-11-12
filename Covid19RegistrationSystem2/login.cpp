@@ -1,8 +1,11 @@
 #include "landingpage.h"
-#include "signup.h"
 #include "login.h"
 #include "userpage.h"
 #include "ui_login.h"
+#include "adminmain.h"
+#include "database.h"
+#include "userpage.h"
+
 #include <QDebug>
 
 Login::Login(QWidget *parent) :
@@ -13,12 +16,14 @@ Login::Login(QWidget *parent) :
 
 
     //call database(Need to improve)
-    Signup * signup = new Signup(this);
+//    DatabaseUsers * databaseUsers = new DatabaseUsers();
 
     if(!db.open()){
         qWarning() << "MainWindow::DatabaseConnect - ERROR: " << db.lastError().text();
     }
 
+    //hide password
+    ui->lineEditPassword->setEchoMode(QLineEdit::Password);
 
 
     //Login->UserPage (Need validation)
@@ -28,8 +33,8 @@ Login::Login(QWidget *parent) :
         email = ui->lineEditEmail->text();
         password = ui->lineEditPassword->text();
 
-        QSqlQuery query(db);
 
+        QSqlQuery query(db);
 
         if(query.exec("SELECT * FROM user WHERE email='"+email+"' and password='"+password+"'")){
 
@@ -37,27 +42,30 @@ Login::Login(QWidget *parent) :
 
             while (query.next()) {
                 count++;
-                qDebug() << count;
             }
 
-            if(count==1){
+            if(email == "admin" && password == "admin"){
+                QMessageBox::information(this,"Login","Login successfully!");
+                AdminMain * adminmain = new AdminMain(this);
+                this->hide();
+                adminmain->show();
+
+            } else if(count==1){
                 QMessageBox::information(this,"Login","Login successfully!");
 
-                UserPage * userPage = new UserPage(this);
+                //Give email to User Page
+                UserPage * userPage = new UserPage(this,email);
                 this->hide();
                 userPage->show();
+
+
             }else{
                 QMessageBox::information(this,"Login","You entered wrong information");
             }
         };
-
-//        UserPage * userPage = new UserPage(this);
-//        this->hide();
-//        userPage->show();
-
     });
 
-    //Login->LandingPage
+    //->LandingPage
     connect(ui->pushButtonBack,&QPushButton::clicked,[=](){
         LandingPage * landingPage = new LandingPage(this);
         this->hide();

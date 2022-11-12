@@ -3,17 +3,8 @@
 
 #include <QDialog>
 
-#include <QSql>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QSqlDriver>
+#include "database.h"
 
-#include <QLabel>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QDebug>
-#include <QMessageBox>
 
 
 namespace Ui {
@@ -25,13 +16,25 @@ class UserProfile : public QDialog
     Q_OBJECT
 
 public:
-    explicit UserProfile(QWidget *parent = nullptr);
+    explicit UserProfile(QWidget *parent = nullptr, QString email="email");
     ~UserProfile();
 
-    QSqlDatabase db;
+    void getUesrInfo();
+
 
 private:
     Ui::UserProfile *ui;
+
+    QSqlDatabase db;
+
+    //Uer Info
+    int id;
+    QString firstName;
+    QString lastName;
+    QString email;
+    QString birthday;
+    QString NHINumber;
+    QString phone;
 };
 
 #endif // USERPROFILE_H

@@ -1,14 +1,12 @@
 #include "landingpage.h"
 #include "userpage.h"
-#include "userprofile.h"
-#include "ui_userprofile.h"
+#include "userreportissue.h"
+#include "ui_userreportissue.h"
+#include <QMessageBox>
 
-
-
-
-UserProfile::UserProfile(QWidget *parent, QString email) :
+UserReportIssue::UserReportIssue(QWidget *parent, QString email) :
     QDialog(parent),
-    ui(new Ui::UserProfile)
+    ui(new Ui::UserReportIssue)
 {
     ui->setupUi(this);
 
@@ -20,22 +18,12 @@ UserProfile::UserProfile(QWidget *parent, QString email) :
 
     //Icons
     int iconSize = 25;
-    int iconSizeL = 200;
 
     QPixmap user(":/Images/user.png");
     ui->labelIconUser->setPixmap(user.scaled(iconSize,iconSize));
-    QPixmap qrcode(":/Images/qrcode.png");
-    ui->labelQRCode->setPixmap(qrcode.scaled(iconSizeL,iconSizeL));
 
     //Set User Information
     ui->labelUserName->setText(firstName);
-    ui->labelName->setText(firstName + " "+ lastName);
-    ui->labelEmail->setText(email);
-    ui->labelNHINumber->setText(NHINumber);
-    ui->labelDateOfBirth->setText(birthday);
-    ui->labelMobileNumber->setText(phone);
-
-
 
     //->Home
     connect(ui->pushButtonHome,&QPushButton::clicked,[=](){
@@ -50,18 +38,21 @@ UserProfile::UserProfile(QWidget *parent, QString email) :
         this->hide();
         landingpage->show();
     });
-
+    //Back
+    connect(ui->pushButtonBack,&QPushButton::clicked,[=](){
+        UserPage * userpage = new UserPage(this,email);
+        this->hide();
+        userpage->show();
+    });
 }
 
-UserProfile::~UserProfile()
+UserReportIssue::~UserReportIssue()
 {
     delete ui;
 }
 
-
-
 //Get User Information
-void UserProfile::getUesrInfo()
+void UserReportIssue::getUesrInfo()
 {
     auto query = QSqlQuery(db);
 
@@ -71,9 +62,9 @@ void UserProfile::getUesrInfo()
         firstName = query.value(1).toString();
         lastName = query.value(2).toString();
         birthday = query.value(3).toString();
-        NHINumber = query.value(4).toString();
+//        NHINumber = query.value(4).toString();
         email = query.value(5).toString();
-        phone = query.value(6).toString();
+//        phone = query.value(6).toString();
 //        password = query.value(7).toString();
 //        dose1Date = query.value(8).toString();
 //        dose1Manufacturer = query.value(9).toString();
@@ -90,5 +81,37 @@ void UserProfile::getUesrInfo()
 
     } else {
         qWarning() << query.lastError();
+        qInfo() << query.lastQuery() << query.boundValues();
     }
 }
+
+void UserReportIssue::on_pushButtonRequest_clicked()
+{
+    QString userInputFirstName = ui->lineEditFirstName->text();
+    QString userInputLastName = ui->lineEditLastName->text();
+    QString userInputEmail = ui->lineEditEmail->text();
+
+
+    //Submit request(Birth is not included)
+    if(userInputFirstName == firstName && userInputLastName == lastName && userInputEmail == email){
+        QMessageBox::information(this,"Submit","Successfully submitted");
+
+        //Add message to the report table
+        QSqlQuery query(db);
+
+        report = ui->textEditMessage->toPlainText();
+
+        query.exec("INSERT INTO "
+                   "reports(FirstName, LastName, Email, Report) "
+                   "VALUES('"+firstName+"', '"+lastName+"', '"+email+"', '"+report+"')");
+
+
+        UserPage * userpage = new UserPage(this, email);
+        this->hide();
+        userpage->show();
+
+    } else {
+        QMessageBox::information(this,"Submit","You entered wrong informaion");
+    }
+}
+

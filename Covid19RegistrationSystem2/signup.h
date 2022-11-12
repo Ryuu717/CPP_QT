@@ -18,7 +18,6 @@ public:
     Signup(QWidget *parent = nullptr);
     ~Signup();
 
-    QSqlDatabase db;
 
 private slots:
     void on_pushButtonConfirm_clicked(QString firstName, QString lastName, QString email, QString password);
@@ -26,10 +25,13 @@ private slots:
 private:
     Ui::Signup *ui;
 
-public:
-    void Databaseconect();
-    void DatabaseInit();
-    void DatabasePopulate();
+    QSqlDatabase db;
+
+    QString firstName;
+    QString lastName;
+    QString email;
+    QString NHINumber;
+    QString password;
 
 
 };

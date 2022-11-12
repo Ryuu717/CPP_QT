@@ -1,14 +1,12 @@
 #include "landingpage.h"
 #include "userpage.h"
-#include "userprofile.h"
-#include "ui_userprofile.h"
+#include "userrequestvaccinepass.h"
+#include "ui_userrequestvaccinepass.h"
+#include <QMessageBox>
 
-
-
-
-UserProfile::UserProfile(QWidget *parent, QString email) :
+UserRequestVaccinePass::UserRequestVaccinePass(QWidget *parent, QString email) :
     QDialog(parent),
-    ui(new Ui::UserProfile)
+    ui(new Ui::UserRequestVaccinePass)
 {
     ui->setupUi(this);
 
@@ -20,21 +18,12 @@ UserProfile::UserProfile(QWidget *parent, QString email) :
 
     //Icons
     int iconSize = 25;
-    int iconSizeL = 200;
 
     QPixmap user(":/Images/user.png");
     ui->labelIconUser->setPixmap(user.scaled(iconSize,iconSize));
-    QPixmap qrcode(":/Images/qrcode.png");
-    ui->labelQRCode->setPixmap(qrcode.scaled(iconSizeL,iconSizeL));
 
     //Set User Information
     ui->labelUserName->setText(firstName);
-    ui->labelName->setText(firstName + " "+ lastName);
-    ui->labelEmail->setText(email);
-    ui->labelNHINumber->setText(NHINumber);
-    ui->labelDateOfBirth->setText(birthday);
-    ui->labelMobileNumber->setText(phone);
-
 
 
     //->Home
@@ -51,17 +40,21 @@ UserProfile::UserProfile(QWidget *parent, QString email) :
         landingpage->show();
     });
 
+    //Back
+    connect(ui->pushButtonBack,&QPushButton::clicked,[=](){
+        UserPage * userpage = new UserPage(this,email);
+        this->hide();
+        userpage->show();
+    });
 }
 
-UserProfile::~UserProfile()
+UserRequestVaccinePass::~UserRequestVaccinePass()
 {
     delete ui;
 }
 
-
-
 //Get User Information
-void UserProfile::getUesrInfo()
+void UserRequestVaccinePass::getUesrInfo()
 {
     auto query = QSqlQuery(db);
 
@@ -71,9 +64,9 @@ void UserProfile::getUesrInfo()
         firstName = query.value(1).toString();
         lastName = query.value(2).toString();
         birthday = query.value(3).toString();
-        NHINumber = query.value(4).toString();
+//        NHINumber = query.value(4).toString();
         email = query.value(5).toString();
-        phone = query.value(6).toString();
+//        phone = query.value(6).toString();
 //        password = query.value(7).toString();
 //        dose1Date = query.value(8).toString();
 //        dose1Manufacturer = query.value(9).toString();
@@ -90,5 +83,36 @@ void UserProfile::getUesrInfo()
 
     } else {
         qWarning() << query.lastError();
+        qInfo() << query.lastQuery() << query.boundValues();
     }
 }
+
+
+
+void UserRequestVaccinePass::on_pushButtonRequest_clicked()
+{
+    QString userInputFirstName = ui->lineEditFirstName->text();
+    QString userInputLastName = ui->lineEditLastName->text();
+    QString userInputDay = ui->lineEditDay->text();
+    QString userInputMonth = ui->lineEditMonth->text();
+    QString userInputYear = ui->lineEditYear->text();
+    QString userInputEmail = ui->lineEditEmail->text();
+
+    //Submit request (Need to update(Birth is not included))
+    if(userInputFirstName == firstName && userInputLastName == lastName && userInputEmail == email){
+        QMessageBox::information(this,"Submit","Successfully submitted");
+
+        //Update the Vaccine Pass status of user table
+        QSqlQuery query(db);
+        query.exec("UPDATE user SET VaccinePass = 'Requested' WHERE Email='"+email+"'");
+
+
+        UserPage * userpage = new UserPage(this, email);
+        this->hide();
+        userpage->show();
+
+    } else {
+        QMessageBox::information(this,"Submit","You entered wrong informaion");
+    }
+}
+

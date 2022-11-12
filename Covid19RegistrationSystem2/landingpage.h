@@ -17,6 +17,7 @@ public:
     explicit LandingPage(QWidget *parent = nullptr);
     ~LandingPage();
 
+
 private:
     Ui::LandingPage *ui;
 };

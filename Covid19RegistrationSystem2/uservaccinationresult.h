@@ -1,27 +1,26 @@
-#ifndef USERCOVID19TESTRESULT_H
-#define USERCOVID19TESTRESULT_H
+#ifndef USERVACCINATIONRESULT_H
+#define USERVACCINATIONRESULT_H
 
 #include <QDialog>
 
 #include "database.h"
 
 namespace Ui {
-class UserCovid19TestResult;
+class UserVaccinationResult;
 }
 
-class UserCovid19TestResult : public QDialog
+class UserVaccinationResult : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit UserCovid19TestResult(QWidget *parent = nullptr, QString email="email");
-    ~UserCovid19TestResult();
+    explicit UserVaccinationResult(QWidget *parent = nullptr, QString email="email");
+    ~UserVaccinationResult();
 
     void getUesrInfo();
 
-
 private:
-    Ui::UserCovid19TestResult *ui;
+    Ui::UserVaccinationResult *ui;
 
     QSqlDatabase db;
 
@@ -46,8 +45,6 @@ private:
     QString RAT2Date;
     QString RAT2KitName;
     QString RAT2Result;
-
-
 };
 
-#endif // USERCOVID19TESTRESULT_H
+#endif // USERVACCINATIONRESULT_H

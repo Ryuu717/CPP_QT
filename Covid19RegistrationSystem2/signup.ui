@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>714</width>
+    <width>726</width>
     <height>455</height>
    </rect>
   </property>
@@ -16,8 +16,8 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>340</y>
+     <x>200</x>
+     <y>360</y>
      <width>291</width>
      <height>32</height>
     </rect>
@@ -71,7 +71,7 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>130</x>
      <y>90</y>
      <width>201</width>
      <height>31</height>
@@ -87,10 +87,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>130</x>
      <y>120</y>
      <width>401</width>
-     <height>201</height>
+     <height>221</height>
     </rect>
    </property>
    <property name="title">
@@ -102,7 +102,7 @@
       <x>40</x>
       <y>20</y>
       <width>331</width>
-      <height>149</height>
+      <height>180</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -126,6 +126,13 @@
         <widget class="QLabel" name="label_3">
          <property name="text">
           <string>Email</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>NHI Number</string>
          </property>
         </widget>
        </item>
@@ -157,6 +164,9 @@
         <widget class="QLineEdit" name="lineEditEmail"/>
        </item>
        <item>
+        <widget class="QLineEdit" name="lineEditNHINumber"/>
+       </item>
+       <item>
         <widget class="QLineEdit" name="lineEditPassword"/>
        </item>
        <item>
@@ -166,6 +176,56 @@
      </item>
     </layout>
    </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>120</y>
+     <width>163</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Password</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>- At least 7 characters</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>- Uppercase (A-Z)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>- Lowercase (a-z)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>- Number (0-9)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>- Symbols (#,$,%,&amp;,!)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

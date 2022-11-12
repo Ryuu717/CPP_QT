@@ -17,6 +17,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Sql)
 set(PROJECT_SOURCES
         main.cpp
 
+        ########################################################
+        #Common
+        ########################################################
         landingpage.h
         landingpage.cpp
         landingpage.ui
@@ -29,6 +32,12 @@ set(PROJECT_SOURCES
         login.cpp
         login.ui
 
+        databaseusers.h
+        databaseusers.cpp
+
+        ########################################################
+        #User
+        ########################################################
         userpage.h
         userpage.cpp
         userpage.ui
@@ -40,6 +49,32 @@ set(PROJECT_SOURCES
         userprofile.h
         userprofile.cpp
         userprofile.ui
+
+        Images.qrc
+
+
+        ########################################################
+        #Admin
+        ########################################################
+        adminmain.h
+        adminmain.cpp
+        adminmain.ui
+
+        adminusers.h
+        adminusers.cpp
+        adminusers.ui
+
+        adminreports.h
+        adminreports.cpp
+        adminreports.ui
+
+        adminlogs.h
+        adminlogs.cpp
+        adminlogs.ui
+
+        adminuserdetail.h
+        adminuserdetail.cpp
+        adminuserdetail.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

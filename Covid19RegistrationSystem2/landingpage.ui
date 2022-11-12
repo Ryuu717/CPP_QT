@@ -10,6 +10,11 @@
     <height>357</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <kerning>false</kerning>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -64,6 +69,9 @@
        <height>32</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>ToolTip</string>
+     </property>
      <property name="text">
       <string>Signup</string>
      </property>
@@ -94,6 +102,19 @@
       <string>or</string>
      </property>
     </widget>
+   </widget>
+   <widget class="QLabel" name="labelLink">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>270</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>External Link</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

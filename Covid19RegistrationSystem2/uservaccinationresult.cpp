@@ -1,11 +1,11 @@
 #include "landingpage.h"
 #include "userpage.h"
-#include "usercovid19testresult.h"
-#include "ui_usercovid19testresult.h"
+#include "uservaccinationresult.h"
+#include "ui_uservaccinationresult.h"
 
-UserCovid19TestResult::UserCovid19TestResult(QWidget *parent, QString email) :
+UserVaccinationResult::UserVaccinationResult(QWidget *parent, QString email) :
     QDialog(parent),
-    ui(new Ui::UserCovid19TestResult)
+    ui(new Ui::UserVaccinationResult)
 {
     ui->setupUi(this);
 
@@ -15,30 +15,30 @@ UserCovid19TestResult::UserCovid19TestResult(QWidget *parent, QString email) :
     //Get User Information
     getUesrInfo();
 
-
     //Icons
     int iconSize = 25;
 
     QPixmap user(":/Images/user.png");
     ui->labelIconUser->setPixmap(user.scaled(iconSize,iconSize));
-    QPixmap kit1(":/Images/test.png");
-    ui->labelCapsule1->setPixmap(kit1.scaled(iconSize,iconSize));
-    QPixmap kit2(":/Images/test.png");
-    ui->labelCapsule2->setPixmap(kit2.scaled(iconSize,iconSize));
-
+    QPixmap vaccine1(":/Images/vaccine.png");
+    ui->labelIconVaccine1->setPixmap(vaccine1.scaled(iconSize,iconSize));
+    QPixmap vaccine2(":/Images/vaccine.png");
+    ui->labelIconVaccine2->setPixmap(vaccine2.scaled(iconSize,iconSize));
 
     //Set User Information
     ui->labelUserName->setText(firstName);
-    ui->labelTestKitName1->setText(RAT1KitName);
-    ui->labelTestKitName2->setText(RAT2KitName);
-    ui->labelRAT1Date->setText(RAT1Date);
-    ui->labelRAT2Date->setText(RAT2Date);
-    ui->labelRAT1Result->setText(RAT1Result);
-    ui->labelRAT2Result->setText(RAT2Result);
+    ui->labelVaccine1Name->setText(dose1Manufacturer + " Vaccine");
+    ui->labelVaccine2Name->setText(dose2Manufacturer + " Vaccine");
+    ui->labelVaccine1Date->setText(dose1Date);
+    ui->labelVaccine2Date->setText(dose2Date);
+    ui->labelManufacturer1->setText(dose1Manufacturer);
+    ui->labelManufacturer2->setText(dose2Manufacturer);
+    ui->labelBatchNumber1->setText(dose1BatchNumber);
+    ui->labelBatchNumber2->setText(dose2BatchNumber);
 
     //->Home
     connect(ui->pushButtonHome,&QPushButton::clicked,[=](){
-        UserPage * userpage = new UserPage(this, email);
+        UserPage * userpage = new UserPage(this,email);
         this->hide();
         userpage->show();
     });
@@ -49,21 +49,19 @@ UserCovid19TestResult::UserCovid19TestResult(QWidget *parent, QString email) :
         this->hide();
         landingpage->show();
     });
-
 }
 
-UserCovid19TestResult::~UserCovid19TestResult()
+UserVaccinationResult::~UserVaccinationResult()
 {
     delete ui;
 }
 
-
 //Get User Information
-void UserCovid19TestResult::getUesrInfo()
+void UserVaccinationResult::getUesrInfo()
 {
     auto query = QSqlQuery(db);
 
-    if (query.exec("select * from [user] WHERE email='"+email+"'")) {
+    if (query.exec("select * from user WHERE email='"+email+"'")) {
         query.next();
         id = query.value(0).toInt();
         firstName = query.value(1).toString();
@@ -88,9 +86,5 @@ void UserCovid19TestResult::getUesrInfo()
 
     } else {
         qWarning() << query.lastError();
-        qInfo() << query.lastQuery() << query.boundValues();
     }
 }
-
-
-

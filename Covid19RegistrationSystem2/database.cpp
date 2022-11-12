@@ -1,26 +1,18 @@
-#include "landingpage.h"
+#include "database.h"
 
-#include <QApplication>
 
-#include <QSql>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QSqlDriver>
-
-int main(int argc, char *argv[])
+Database::Database()
 {
-    QApplication a(argc, argv);
+//  database();
+}
 
-    LandingPage l;
-    l.show();
 
-//    int sessionID = 0;
-//    int *ptr = &sessionID;
 
-    ////////////////////////////////////////////////////////////////////////////////////////
-    //Connect Database Users
-    ////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//Connect Database
+////////////////////////////////////////////////////////////////////////////////////////
+void Database::database()
+{
     const QString DRIVER("QSQLITE");
 
     if(QSqlDatabase::isDriverAvailable(DRIVER))
@@ -37,7 +29,6 @@ int main(int argc, char *argv[])
     }
     else
         qWarning() << "MainWindow::DatabaseConnect - ERROR: no driver " << DRIVER << "available";
-
-
-    return a.exec();
 }
+
+
