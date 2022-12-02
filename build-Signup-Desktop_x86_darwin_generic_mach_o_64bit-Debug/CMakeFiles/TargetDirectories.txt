@@ -1,9 +1,0 @@
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Signup.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/list_install_components.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/local.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/strip.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Signup_autogen_timestamp_deps.dir
-/Users/Ryuuuu/QtProjects/build-Signup-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Signup_autogen.dir

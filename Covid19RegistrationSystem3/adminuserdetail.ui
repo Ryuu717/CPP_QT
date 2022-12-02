@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminUserDetail</class>
+ <widget class="QDialog" name="AdminUserDetail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>2038</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>74</y>
+     <width>120</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtonDashboard">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0,0.1); 
+	border: none; 
+	color: rgb(0, 0, 0); 
+	font: 16px;
+	text-align: left;
+} 
+
+QPushButton:hover { 
+	background-color: rgb(0, 0, 0, 0.1); 
+	border: none; 
+	color: rgb(0, 43, 255); 
+}
+</string>
+      </property>
+      <property name="text">
+       <string>1. Dashboard</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>13</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonUsers">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0,0.1); 
+	border: none; 
+	color: rgb(0, 0, 0); 
+	font: 16px;
+	text-align: left;
+} 
+
+QPushButton:hover { 
+	background-color: rgb(0, 0, 0, 0.1); 
+	border: none; 
+	color: rgb(0, 43, 255); 
+}
+</string>
+      </property>
+      <property name="text">
+       <string>2. Users</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>13</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonReports">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0,0.1); 
+	border: none; 
+	color: rgb(0, 0, 0); 
+	font: 16px;
+	text-align: left;
+} 
+
+QPushButton:hover { 
+	background-color: rgb(0, 0, 0, 0.1); 
+	border: none; 
+	color: rgb(0, 43, 255); 
+}
+</string>
+      </property>
+      <property name="text">
+       <string>3. Reports</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>13</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonLogs">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0,0.1); 
+	border: none; 
+	color: rgb(0, 0, 0); 
+	font: 16px;
+	text-align: left;
+} 
+
+QPushButton:hover { 
+	background-color: rgb(0, 0, 0, 0.1); 
+	border: none; 
+	color: rgb(0, 43, 255); 
+}
+</string>
+      </property>
+      <property name="text">
+       <string>4. Logs</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>2</y>
+     <width>681</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="pushButtonMyHealthAccount">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0,0.1); 
+	border: none; 
+	color: rgb(0, 0, 0); 
+	font: 24px;
+	text-align: left;
+} 
+
+</string>
+      </property>
+      <property name="text">
+       <string>My health account </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>188</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="labelAdmin">
+           <property name="text">
+            <string>Icon</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="font">
+            <font>
+             <family>.AppleSystemUIFont</family>
+             <pointsize>14</pointsize>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;.AppleSystemUIFont&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Admin</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonLogout">
+      <property name="text">
+       <string>Log out</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>721</width>
+     <height>1541</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>719</width>
+      <height>1539</height>
+     </rect>
+    </property>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>52</y>
+       <width>701</width>
+       <height>441</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNHINumberTitle">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>NHI Number</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelQRCode">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>70</y>
+        <width>301</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>QR Code</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelNHINumber">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>50</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>**********</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>661</width>
+        <height>108</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Name</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="labelName">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Data of Birth</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelDateOfBirth">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Email Address</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelEmail">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Mobile Number</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelMobileNumber">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>18</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>559</x>
+        <y>290</y>
+        <width>131</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Generate QR Code</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>560</y>
+       <width>701</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="font">
+         <font>
+          <family>.AppleSystemUIFont</family>
+          <pointsize>18</pointsize>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;</string>
+        </property>
+        <property name="text">
+         <string>2. View Vaccination Record</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>268</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>1190</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;</string>
+     </property>
+     <property name="text">
+      <string>4. View Covid-19 Test Result</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>686</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="labelDashboard_2">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;.AppleSystemUIFont&quot;;</string>
+        </property>
+        <property name="text">
+         <string>1. Profile</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>618</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>610</y>
+       <width>631</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>890</y>
+       <width>631</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>1240</y>
+       <width>631</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>850</y>
+       <width>662</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="font">
+         <font>
+          <family>.AppleSystemUIFont</family>
+          <pointsize>18</pointsize>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;</string>
+        </property>
+        <property name="text">
+         <string>3. Vaccination Pass</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="text">
+         <string>Delete</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>348</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

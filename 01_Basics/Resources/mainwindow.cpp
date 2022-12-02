@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
     QPixmap pix(":/images/SNS.png");
     ui->label->setPixmap(pix.scaled(300,300));
 }

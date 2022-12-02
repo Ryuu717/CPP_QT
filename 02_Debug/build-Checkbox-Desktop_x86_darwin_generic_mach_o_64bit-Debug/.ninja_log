@@ -1,9 +1,0 @@
-# ninja log v5
-0	274	1667180048252336150	Checkbox_autogen/timestamp	2494268e39d2dcee
-0	274	1667180048252336150	Checkbox_autogen/mocs_compilation.cpp	2494268e39d2dcee
-0	274	1667180048252336150	/Users/Ryuuuu/QtProjects/02_Debug/build-Checkbox-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Checkbox_autogen/timestamp	2494268e39d2dcee
-0	274	1667180048252336150	/Users/Ryuuuu/QtProjects/02_Debug/build-Checkbox-Desktop_x86_darwin_generic_mach_o_64bit-Debug/Checkbox_autogen/mocs_compilation.cpp	2494268e39d2dcee
-274	904	1667180048884277446	CMakeFiles/Checkbox.dir/main.cpp.o	dae9bd7f1ec068d1
-274	906	1667180048885123857	CMakeFiles/Checkbox.dir/Checkbox_autogen/mocs_compilation.cpp.o	1c051c8d53285e82
-274	931	1667180048912190514	CMakeFiles/Checkbox.dir/widget.cpp.o	dc3966f8153b2bb5
-931	1015	1667180048999046114	Checkbox.app/Contents/MacOS/Checkbox	a74ad8e86501f71b

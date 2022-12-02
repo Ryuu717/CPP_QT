@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Signup</class>
+ <widget class="QDialog" name="Signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>291</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButtonBack">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>98</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonConfirm">
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>My health account </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Signup</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>401</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>331</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>First Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Last Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Email</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>NHI Number</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Password</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Password(Confirm)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="lineEditFirstName"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditLastName"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditEmail"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditNHINumber"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditPassword"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditPasswordConfirm"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>120</y>
+     <width>163</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Password</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>- At least 8 characters</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>- Uppercase (A-Z)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>- Lowercase (a-z)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>- Number (0-9)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>- Symbols (@, !, ?, #)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

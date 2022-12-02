@@ -1,9 +1,0 @@
-# ninja log v5
-0	321	1667170690879264839	QSetting_autogen/timestamp	2f0878fe0824c8b3
-0	321	1667170690879264839	QSetting_autogen/mocs_compilation.cpp	2f0878fe0824c8b3
-0	321	1667170690879264839	/Users/Ryuuuu/QtProjects/02_Debug/build-QSetting-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QSetting_autogen/timestamp	2f0878fe0824c8b3
-0	321	1667170690879264839	/Users/Ryuuuu/QtProjects/02_Debug/build-QSetting-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QSetting_autogen/mocs_compilation.cpp	2f0878fe0824c8b3
-322	1042	1667170691600901023	CMakeFiles/QSetting.dir/QSetting_autogen/mocs_compilation.cpp.o	cc5f45d0676d3596
-322	1053	1667170691613423358	CMakeFiles/QSetting.dir/main.cpp.o	80586d1bc69758ec
-323	1097	1667170691658134851	CMakeFiles/QSetting.dir/widget.cpp.o	4c967b5085d35ec9
-1097	1191	1667170691755958727	QSetting.app/Contents/MacOS/QSetting	9cf467b3c057bde1

@@ -1,9 +1,0 @@
-# ninja log v5
-0	476	1667285538361504407	QWidget_autogen/timestamp	f7d46c71e949add1
-0	476	1667285538361504407	QWidget_autogen/mocs_compilation.cpp	f7d46c71e949add1
-0	476	1667285538361504407	/Users/Ryuuuu/QtProjects/02_Debug/build-QWidget-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QWidget_autogen/timestamp	f7d46c71e949add1
-0	476	1667285538361504407	/Users/Ryuuuu/QtProjects/02_Debug/build-QWidget-Desktop_x86_darwin_generic_mach_o_64bit-Debug/QWidget_autogen/mocs_compilation.cpp	f7d46c71e949add1
-476	1105	1667285538992089870	CMakeFiles/QWidget.dir/QWidget_autogen/mocs_compilation.cpp.o	9d4f2c55badddf35
-477	1107	1667285538993014161	CMakeFiles/QWidget.dir/main.cpp.o	a447c6c12da5e012
-477	1107	1667285538993279578	CMakeFiles/QWidget.dir/rockwidget.cpp.o	cbef62b05ec2e18b
-1107	1208	1667285539099666085	QWidget.app/Contents/MacOS/QWidget	2dd6171a8e1b6e9b

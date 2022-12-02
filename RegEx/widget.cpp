@@ -9,15 +9,14 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
-//    QRegularExpression ID("[0-9]{1000}");
-//    QRegularExpressionValidator
-
-
+    //Validator
     QRegularExpression rx("-?\\d{1,3}");
     QValidator *validator = new QRegularExpressionValidator(rx, this);
-
-//    QLineEdit *edit = new QLineEdit(this);
     ui->lineEdit->setValidator(validator);
+
+
+
+
 }
 
 Widget::~Widget()

@@ -40,27 +40,27 @@ Widget::Widget(QWidget *parent)
 
 
         //4. Question
-//        int ret = QMessageBox::question(this,"Message Title",
-//                                       "The button was clicled. Do you wan to comtinue?",
-//                                       QMessageBox::Ok | QMessageBox::Cancel);
+        int ret = QMessageBox::question(this,"Message Title",
+                                       "The button was clicled. Do you wan to comtinue?",
+                                       QMessageBox::Ok | QMessageBox::Cancel);
 
 
 
 
 
         //5. Warning message : Handling the user action
-        int ret = QMessageBox::warning(this,"Message Title",
-                                       "The button was clicled. Do you wan to comtinue?",
-                                        QMessageBox::Ok | QMessageBox::Cancel);
-        if ( ret == QMessageBox::Ok)
-        {
-            qDebug() << "User clicked on OK";
-        }
+//        int ret = QMessageBox::warning(this,"Message Title",
+//                                       "The button was clicled. Do you wan to comtinue?",
+//                                        QMessageBox::Ok | QMessageBox::Cancel);
+//        if ( ret == QMessageBox::Ok)
+//        {
+//            qDebug() << "User clicked on OK";
+//        }
 
-        if ( ret == QMessageBox::Cancel)
-        {
-            qDebug() << "User clicked on Cancel";
-        }
+//        if ( ret == QMessageBox::Cancel)
+//        {
+//            qDebug() << "User clicked on Cancel";
+//        }
     });
 }
 
